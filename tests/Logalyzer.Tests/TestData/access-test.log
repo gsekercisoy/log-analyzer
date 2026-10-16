@@ -1,0 +1,7 @@
+192.168.1.10 - - [10/May/2024:09:15:32 +0000] "GET /index.html HTTP/1.1" 200 1024 "-" "Mozilla/5.0"
+192.168.1.11 - - [10/May/2024:09:16:01 +0000] "GET /about HTTP/1.1" 200 512 "-" "Mozilla/5.0"
+192.168.1.10 - - [10/May/2024:10:02:11 +0000] "GET /api/users?page=2 HTTP/1.1" 200 2048 "-" "curl/8.0"
+10.0.0.5 - - [10/May/2024:10:05:44 +0000] "POST /api/login HTTP/1.1" 401 128 "-" "curl/8.0"
+10.0.0.5 - - [10/May/2024:10:06:02 +0000] "GET /dashboard HTTP/1.1" 500 64 "-" "Mozilla/5.0"
+192.168.1.10 - - [10/May/2024:11:20:00 +0000] "GET /index.html HTTP/1.1" 404 0 "-" "Mozilla/5.0"
+this line is not a valid log line at all

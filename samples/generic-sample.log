@@ -1,0 +1,20 @@
+2024-06-12 08:00:01 [INFO] ShopApp starting (env=production, version=2.4.1)
+2024-06-12 08:00:03 [DEBUG] Loaded 14 configuration keys in 22ms
+2024-06-12 08:01:17 [INFO] User alice@example.com logged in from 203.0.113.7
+2024-06-12 08:12:04 [INFO] GET / served in 12ms (status 200)
+2024-06-12 09:02:10 [INFO] POST /api/login succeeded for bob@example.com
+2024-06-12 09:15:00 [WARN] Slow query (812ms): SELECT * FROM orders WHERE status='pending'
+2024-06-12 09:16:44 [DEBUG] Cache hit ratio 0.91 (hits=4091, misses=403)
+2024-06-12 10:44:12 [INFO] Order #101 created for alice@example.com (total=$84.20)
+2024-06-12 11:06:02 [ERROR] Unhandled exception in OrderService: System.NullReferenceException: Object reference not set
+2024-06-12 11:06:03 [INFO] Retrying order #101 (attempt 2/3)
+2024-06-12 11:06:05 [ERROR] Order #101 failed permanently after 3 attempts
+2024-06-12 12:30:00 [INFO] Daily backup completed (size=412MB, duration=95s)
+2024-06-12 13:01:22 [DEBUG] Health check OK (db=4ms, redis=1ms)
+2024-06-12 15:59:51 [WARN] Payment gateway timeout after 5000ms, falling back to secondary
+2024-06-12 15:59:53 [INFO] Payment for order #102 completed via secondary gateway
+2024-06-12 17:45:29 [WARN] Unauthorized DELETE /api/orders/101 from 192.0.2.44 (token expired)
+2024-06-12 18:20:11 [INFO] User carol@example.com logged out
+2024-06-12 19:00:00 [DEBUG] Nightly cleanup removed 37 expired sessions
+a line without any structure, kept to show the unparsed bucket
+2024-06-12 21:14:55 [ERROR] Disk usage above 85% on /var/log (currently 87%)
